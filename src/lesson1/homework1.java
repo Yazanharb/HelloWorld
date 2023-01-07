@@ -2,7 +2,7 @@ package lesson1;
 
 import java.util.Scanner;
 
-public class homework1 {
+public class HomeWork1 {
     public static void main(String[] args)
     {
         int i,n, sum=0;
