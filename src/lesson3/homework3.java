@@ -1,6 +1,8 @@
+package lesson3;
+
 import java.util.Scanner;
 
-public class sostatkom {
+public class homework3 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Введите число А = ");
