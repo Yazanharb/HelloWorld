@@ -35,7 +35,7 @@ public class HomeWork8 {
 
     }
     //На входе есть числовой массив,необоходимо вывести элементы массива кратные 3
-    public static void multiple3() {
+     static void multiple3() {
         String newString = "";
         System.out.println("Введите массив целых чисел через запятую : ");
         Scanner sc = new Scanner(System.in);
