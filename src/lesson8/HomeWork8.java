@@ -8,7 +8,7 @@ public class HomeWork8 {
         number7();
         multiple3();
     }
-
+    //Если введенное имя совпадает с Вячеслав , то вывести "Привет,Вячеслав", если нет , то вывести "Нет такого имени"
     static void name() {
         String name = new String();
         Scanner sc = new Scanner(System.in);
@@ -34,7 +34,7 @@ public class HomeWork8 {
         }
 
     }
-
+    //На входе есть числовой массив,необоходимо вывести элементы массива кратные 3
     public static void multiple3() {
         String newString = "";
         System.out.println("Введите массив целых чисел через запятую : ");
