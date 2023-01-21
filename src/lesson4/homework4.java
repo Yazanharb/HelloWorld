@@ -7,7 +7,7 @@ public class homework4 {
         Random random = new Random();
         double a = random.nextInt(5);
         System.out.println("Число а :" + a);
-        double b = random.nextInt(10);
+        double b = random.nextInt(1);
         System.out.println("Число b :" + b);
         double c = random.nextInt(1000);
         System.out.println("Число c :" + c);
@@ -18,7 +18,7 @@ public class homework4 {
         if (b == 0) {
             try {
                 System.out.println("На ноль делить нельзя");
-            } catch (Exception e) {
+            } catch (ArithmeticException e) {
                 System.out.println("Исключение ");
             }
         }
