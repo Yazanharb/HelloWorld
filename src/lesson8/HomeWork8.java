@@ -9,7 +9,7 @@ public class HomeWork8 {
         multiple3();
     }
     //Если введенное имя совпадает с Вячеслав , то вывести "Привет,Вячеслав", если нет , то вывести "Нет такого имени"
-    static void name() {
+   public static void name() {
         String name = new String();
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите имя");
@@ -23,7 +23,7 @@ public class HomeWork8 {
 
 
     //Если введеное число больше 7 , то вывести "Привет"
-    static void number7() {
+   public static void number7() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число");
         int a = sc.nextInt();
@@ -35,7 +35,7 @@ public class HomeWork8 {
 
     }
     //На входе есть числовой массив,необоходимо вывести элементы массива кратные 3
-     static void multiple3() {
+    public static void multiple3() {
         String newString = "";
         System.out.println("Введите массив целых чисел через запятую : ");
         Scanner sc = new Scanner(System.in);
