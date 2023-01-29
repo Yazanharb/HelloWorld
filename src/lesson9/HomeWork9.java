@@ -23,6 +23,7 @@ public class HomeWork9 {
 
     interface Converter {
         double getConvertedValue(double baseValue);
+
     }
 
     class CelsiusConverter implements Converter {
